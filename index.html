@@ -9,6 +9,56 @@
 </head>
 
 <body>
+    <main>
+        <section class="input-section">
+            <label for="quantity">Insira a quantidade de números: </label>
+            <input type="number" id="quantity">
+            <p id="errorMessage" class="error-message"></p>
+            <button class="generate-btn" id="generateBtn">Gerar e Analisar</button>
+        </section>
+
+        <section class="results-section">
+
+            <div class="numbers-container">
+                <h3>Números gerados</h3>
+                <div class="numbers-display" id="numbersDisplay">
+
+                </div>
+            </div>
+
+            <div class="stats-container">
+
+                <h3>Estatísticas</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-label">Média:</span>
+                        <span class="stat-value" id="averageValue">--</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-label">Maior número:</span>
+                        <span class="stat-value" id="maxValue">--</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-label">Menor número:</span>
+                        <span class="stat-value" id="minValue">--</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-label">Contagem números pares:</span>
+                        <span class="stat-value" id="evenCount">--</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <span class="stat-label">Contagem números ímpares:</span>
+                        <span class="stat-value" id="oddCount">--</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
     <script src="./script.js"></script>
 </body>
