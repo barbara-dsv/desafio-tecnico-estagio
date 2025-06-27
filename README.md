@@ -29,13 +29,13 @@ Aplicação web que gera números aleatórios e realiza análises estatísticas 
 - **JavaScript ES6+** - Lógica e interatividade
 
 ## 📁 Estrutura
-
+```
 projeto/
 ├── index.html          # Página principal
 ├── styles.css          # Estilos da aplicação
 ├── script.js           # Lógica JavaScript
 └── README.md           # Documentação
-
+```
 ## 🧮 Decisões Técnicas
 
 - **Limite de 10.000 números**: Previne travamento do navegador
